@@ -1,4 +1,4 @@
-import { appendFileSync } from "fs";
+// import { appendFileSync } from "fs";
 
 interface Payment {
   id: number;
