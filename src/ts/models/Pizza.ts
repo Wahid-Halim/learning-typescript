@@ -7,6 +7,6 @@ export interface PizzaProps {
   price: number;
 }
 
-export const pizza = new DataResource<PizzaProps>(
+export const Pizza = new DataResource<PizzaProps>(
   "http://localhost:3000/pizzas"
 );
